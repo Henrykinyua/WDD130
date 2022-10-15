@@ -1,0 +1,17 @@
+.images1{
+    margin:0%;
+}
+.images2{
+    box-sizing:border-box;
+    border-radius: 50%;
+    text-align:left ;
+}
+.images3{
+    border-radius: 50%;
+    text-align: center;
+
+}
+.images4{
+    border-radius: 50%;
+    text-align: right;
+}
