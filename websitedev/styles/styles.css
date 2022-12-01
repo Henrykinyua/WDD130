@@ -19,7 +19,7 @@ nav{
  
 nav a{
     text-align: center;
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 35px;
 }
@@ -49,6 +49,7 @@ nav a:hover{
     background-color: #FFDDD2;
     text-align: center;
     border-style: none;
+    align-content: center;
 
 }  
 .home-grid{
@@ -84,6 +85,7 @@ footer{
   grid-template-rows: repeat(3,1fr);
   background-color: #E29578;
   text-align: center;
+  grid-gap: 20px;
 }
 .services{
     grid-column: 1/3;
