@@ -19,7 +19,7 @@ nav{
  
 nav a{
     text-align: center;
-    color: #006D77;
+    color: green;
     text-decoration: none;
     padding: 35px;
 }
@@ -44,7 +44,8 @@ nav a:hover{
 #hero-message{
     grid-column: 2/4;
     grid-row: 2/3;
-    color: white;       
+    color: #11270B;  
+    font-size: 20px;     
 }  
 .home-grid{
     display: grid;
@@ -63,6 +64,7 @@ nav a:hover{
     grid-column: 3/6;
     grid-row: 1/4;
     padding-left: 30px;
+    font-size: 20px;
 }
 .contact{
     color: red;
@@ -93,6 +95,9 @@ footer{
 .social{
     grid-column: 5/7;
     grid-row: 2/3;
+    padding: 25px 50px;
+    justify-content: space-around;
+
 }
 p{
     grid-column: 1/7;
