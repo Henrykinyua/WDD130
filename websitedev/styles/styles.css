@@ -19,7 +19,7 @@ nav{
  
 nav a{
     text-align: center;
-    color: green;
+    color: white;
     text-decoration: none;
     padding: 35px;
 }
@@ -45,7 +45,11 @@ nav a:hover{
     grid-column: 2/4;
     grid-row: 2/3;
     color: #11270B;  
-    font-size: 20px;     
+    font-size: 20px; 
+    background-color: #FFDDD2;
+    text-align: center;
+    border-style: none;
+
 }  
 .home-grid{
     display: grid;
@@ -67,8 +71,9 @@ nav a:hover{
     font-size: 20px;
 }
 .contact{
-    color: red;
+    color: white;
     margin: center;
+    background-color: blue;
 }
 main section{
     text-align: center; 
