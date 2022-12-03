@@ -46,6 +46,7 @@ nav a:hover{
 #hero-message{
     grid-column: 2/4;
     grid-row: 2/3;
+    height:100%;
     color: #11270B;  
     font-size: 20px; 
     background-color: #FFDDD2;
