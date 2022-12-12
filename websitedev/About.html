@@ -4,36 +4,38 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>personal website</title>
+  <title>Carl-Henry's Webdev</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
   <div id="content"> 
   <header>
     <a id="logo_link" href="index.html">
-      <img class="logo" src="images/Carl-Henry's-logos (2).jpeg" alt="rafting logo">
+      <img class="logo" src="images/Carl-Henry's-logos.jpg" alt="webdev logo">
     </a>
     <nav>
-      <a href="index.html">Home</a>
-       <a href="About.html">About</a>
-       <a href="Services.html">Services</a>
+      <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Services.html">Services</a>
+        <div class="login-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Username" name="username">
+            <input type="text" placeholder="Password" name="psw">
+            <button type="submit">Login</button>
+          </form>
+        </div>
+      </div>
     </nav>
   </header>
-  <div id="hero">
-    <div id="hero-box">
-      <img id="hero-image" src="images/pexels-tranmautritam-251225resized.jpg" alt="image for about page">
-    <section id = 'hero-message'>
-      <h1 class ='home-title'>About Carl-Henry's webdev team</h1>
-      <h4>The best web developers and designers for small and medium businesses</h4>
-      <div class="button-box">
-        <a class='contact' href="">Contact Us</a>
-      </div> 
-    </section> 
-    </div>
-  </div> 
-  <main class="home-grid">
-    <section id="rivers-card"> 
-      <img class ="card-image" src="images/pexels-pixabay-270404resized.jpg" alt="image2 for about page">
-      <h2>websites</h2>
+  <div id="hero-box2">
+    <img class ="image-one" src="images/pexels-pixabay-270404resized.jpg" alt="image2 for about page">
+    <img class="image-two" src="images/pexels-tranmautritam-251225resized.jpg" alt="image for about page">
+  </div>   
+  <main class="home2-grid">
+    <section id="card">  
+      <h1 class ='home2-title'>About Carl-Henry's webdev team</h1>
+      <h4>The best web developer and designer for small and medium businesses</h4>
       <p>I make every website designed with purpose and meaning that are guaranteed to 
         create a better experience for the users of the website.
         A lot of websites dont follow both basic and advanced UX design practices, 
@@ -41,29 +43,44 @@
          harder to consume & understand, and overall less effective.
         My goal is to make the Internet a more beautiful and usable place, one website at a time.</p>
     </section>
-    <div id="background"></div>
-    <img class="mountains" src="images/pexels-rodrigo-santos-388814resized.jpg" alt="image3 for about page">
-    <section class="msg">
+    <div id = 'final'> 
+    <img class="code-img" src='images/pexels-rodrigo-santos-3888149resize.jpg' alt="image3 for about page">
+    <section class="final-msg">
+      <h2>Get wonderful website</h2>
       <h2>More than you can imagine!</h2>
+      <a class='contact' href="">Contact Us</a>
     </section>
+    </div>  
   </main>
   <footer>
-    <h2>Web-design services</h2>
-    <section class="services">
-        <h3>speed Optimization</h3>
-        <h3>website design</h3>
-        <h3>website updates</h3>
-    </section>
-    <h2>Information</h2>
-    <section class="information">
-        <h3>achievements</h3>
-        <p><a href="site-plan.html">site_plan_rafting</a></p>
-    </section>
-    <h2>Contact me</h2>
-    <section class="contact_me">
-        <h3>Email: henrykinyua058@gmail.com</h3>
-        <h3>Location: Nairobi,Kenya</h3>
-    </section>
+    <ul class="services">
+      <li>
+        Services we offer
+        <ul> 
+          <li>Speed Optimization</li>
+          <li>Website design</li>
+          <li>Website updates</li>
+        </ul>
+      </li>
+    </ul>    
+    <ul class="information">
+      <li>
+        Information
+        <ul> 
+          <li>Achievements</li>
+          <li><a href="site-plan.html">Site_plan</a></li>
+        </ul>
+      </li>
+    </ul>    
+    <ul class="contact-me">
+      <li>
+        Contacts
+        <ul> 
+          <li><a href='henrykinyua058@gmail.com'>Email</a></li>
+          <li>Location: Nairobi,Kenya</li>
+        </ul>
+      </li>
+    </ul>      
     <div class="social">
       <a href="https://facebook.com">
         <img src="images/facebook.png" alt="facebook icon">
@@ -75,7 +92,7 @@
         <img src="images/instagram.png" alt='instagram icon'>
       </a>
     </div>
-    <p>Carl-Henry's webdev @copy copyright @copy2022-Henry Kinyua</p>
+    <p>Copyright &copy; 2022 Carl-Henry's webdev. All rights reserved.</p>
   </footer>
   </div>
 </body>
