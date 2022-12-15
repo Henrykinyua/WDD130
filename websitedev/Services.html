@@ -4,18 +4,28 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>personal website</title>
+  <title>Carl-Henry's Webdev</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
   <div id="content"> 
   <header>
     <a id="logo_link" href="index.html">
-      <img class="logo" src="images/Carl-Henry's-logos (2).jpeg" alt="webdev logo">
+      <img class="logo" src="images/Carl-Henry's-logos.jpg" alt="webdev logo">
     </a>
     <nav>
-      <a href="index.html">Home</a>
-       <a href="About.html">About</a>
-       <a href="Services.html">services</a>
+      <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Services.html">Services</a>
+        <div class="login-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Username" name="username">
+            <input type="text" placeholder="Password" name="psw">
+            <button type="submit">Login</button>
+          </form>
+        </div>
+      </div>
     </nav>
   </header>
   <div id="hero">
@@ -24,55 +34,69 @@
     <section id = 'hero-message'>
       <h1 class ='home-title'>Website Design Services</h1>
       <h4>we offer services with passion</h4>
-      <p>You will not regret working together with us.</p>
+      <h4>You will not regret working together with us.</h4>
       <div class="button-box">
-        <a class='contact' href="">Contact Us</a>
+        <a class='contact' href='www.facebook.com'>Contact Us</a>
       </div> 
     </section> 
     </div>
   </div> 
-  <main class="home-grid">
-    <section id="service1">  
-      <img class ="service1-image" src="images/pexels-picjumbocom-196656resized.jpg" alt="SERVICE ONE IMAGE">
-      <h2>Website Design</h2> 
-      <p>Jumpstart and establish your brand with your first website or get your existing website
-         redesigned/updated.</p>   
-    <section id="service2">
+  <main class="home3-grid">
+    <img class ="home-image" src="images/pexels-picjumbocom-196656resized.jpg" alt="SERVICE ONE IMAGE">
+    <div id="services"> 
+      <section id="service1">
+        <h2>Website Design</h2>   
+        <img class ="service1-image" src="images/computer.png" alt="SERVICE ONE IMAGE">
+        <p>Jumpstart and establish your brand with your first website or get your existing website
+          redesigned/updated.</p>   
+      <section id="service2">
+        <h2>Website Branding</h2> 
         <img class="service2-img" src="images/freelancer.png" alt="SERVICE TWO IMAGE">
-        <h2>Website Branding</h2>
         <p>We make sure we brand your website perfectly. It will be designed to fit the style of your
-             brand (fonts, colors, ect). </p>
-    </section>
-    <section id="service3">
-        <img class="service3-img" src="images/icongee.png" alt="SERVICE THREE IMAGE">
+            brand (fonts, colors, etc). </p>
+      </section>
+      <section id="service3">
         <h2>Website Updates</h2>
+        <img class="service3-img" src="images/icongee.png" alt="SERVICE THREE IMAGE">
         <p>Anything from Website Updates, Bug Fixes, Content changes, or additions of any kind.</p>
-    </section>
-    <section id="service4">
-        <img class="service4-img" src="images/circle.png" alt="SERVICE FOUR IMAGE">
+      </section>
+      <section id="service4">
         <h2>Speed Optimization</h2>
+        <img class="service4-img" src="images/circle.png" alt="SERVICE FOUR IMAGE">
         <p> Speed Optimization Get your website loading faster. A slow site can easily loose 
             visitors and customers.</p>
-    </section>
-    </section>    
+      </section>
+    </div> 
   </main>
   <footer>
-    <h2>Web-design services</h2>
-    <section class="services">
-        <h3>speed optimization</h3>
-        <h3>website design</h3>
-        <h3>website updates</h3>
-    </section>
-    <h2>Information</h2>
-    <section class="information">
-        <h3>achievements</h3>
-        <p><a href="site-plan.html">site_plan_rafting</a></p>
-    </section>
-    <h2>Contact me</h2>
-    <section class="contact_me">
-        <h3>Email: henrykinyua058@gmail.com</h3>
-        <h3>Location: Nairobi,Kenya</h3>
-    </section>
+    <ul class="services">
+      <li>
+        Services we offer
+        <ul> 
+          <li>Speed Optimization</li>
+          <li>Website design</li>
+          <li>Website updates</li>
+        </ul>
+      </li>
+    </ul>    
+    <ul class="information">
+      <li>
+        Information
+        <ul> 
+          <li>Achievements</li>
+          <li><a href="site-plan.html">Site_plan</a></li>
+        </ul>
+      </li>
+    </ul>    
+    <ul class="contact-me">
+      <li>
+        Contacts
+        <ul> 
+          <li><a href='henrykinyua058@gmail.com'>Email</a></li>
+          <li>Location: Nairobi,Kenya</li>
+        </ul>
+      </li>
+    </ul>      
     <div class="social">
       <a href="https://facebook.com">
         <img src="images/facebook.png" alt="facebook icon">
@@ -84,7 +108,7 @@
         <img src="images/instagram.png" alt='instagram icon'>
       </a>
     </div>
-    <p>Carl-Henry's webdev @copy copyright @copy2022-Henry Kinyua</p>
+    <h5>Copyright &copy; 2022 Carl-Henry's webdev. All rights reserved.</h5>
   </footer>
   </div>
 </body>
